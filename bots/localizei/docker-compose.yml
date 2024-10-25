@@ -1,0 +1,8 @@
+services:
+  bot_itbi:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+     - "80:80"
+    restart: always
